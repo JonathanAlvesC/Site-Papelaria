@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url(../Imagens/Background/1.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+
+/*Quadrado Transparente*/
+.form-box{
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(40px);
+    padding: 30px 40px;
+    width: 50%;
+    border-radius: 0 20px 20px 0;
+}
+
+
+h2{
+    font-size: 30px;
+}
+
+
+p{
+    font-weight: bold;
+    color: #3D3D3D;
+}
+
+
+a{
+    color: #FF008A;
+    text-decoration: none;
+}
+
+
+table{
+    border: 2px solid #616161;
+}
+
+tr, td, th{
+    border: 1px solid #616161;
+    text-align: center;
+    
+    
+}
